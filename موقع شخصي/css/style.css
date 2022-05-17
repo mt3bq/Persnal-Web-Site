@@ -164,7 +164,7 @@
 
 
 .skill{
- height: 100vh;
+ height: auto;
   background-color: #1d1f1d;
   position: relative;
   
@@ -215,6 +215,7 @@
   justify-content: space-between;
   direction: ltr;
   padding-top: 5%;
+  padding-bottom: 20px;
   
  
 
@@ -296,6 +297,7 @@
   height: auto;
   padding-bottom: 50px;
   
+  
 }
 .projects .Project{
   padding-top: 50px;
@@ -306,6 +308,7 @@
   align-items: center;
   width: 80%;
   margin: auto;
+  text-align: center;
   
 }
 .projects .Project .card{
@@ -342,10 +345,85 @@ padding-left: 5px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .servsess{
   background-color: #1d1f1d;
-  height: 50vh;
+  height: auto;
+  padding-bottom: 50px;
+  
+
 }
+.servsess .servers{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 35px;
+  padding-top: 50px;
+}
+.servsess .servers .item_servers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+.servsess .servers .item_servers h3,img{
+padding:10px 0px 25px;
+}
+
+
+
+footer{
+  background-color: #141E27;
+  padding-bottom: 30px;
+  
+}
+footer .Foother_style{
+  width: 80%;
+  margin: auto;
+}
+footer .contactus{
+  text-align: center;
+  padding: 10px 0;
+}
+footer  .soucal{
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+footer  .soucal a{
+  padding: 0px 30px;
+  color: white;
+}
+footer  .soucal :first-child:hover{
+  color: blue;
+  font-size:30px ;
+  transition: 1s;
+}
+footer  .soucal :nth-child(2):hover{
+  color: blue;
+  font-size:30px ;
+  transition: 1s;
+}
+
+
+
 
 
 
